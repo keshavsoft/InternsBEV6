@@ -1,0 +1,6 @@
+POST http://localhost:3000/V1/Task2/GroupBy/SingleColumnSum/{GroupByColumnName}
+Content-Type: application/json
+
+[
+	"SumColumnName"
+]

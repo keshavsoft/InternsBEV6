@@ -1,0 +1,34 @@
+{
+    "tableName": "WsChat",
+    "columns": [
+        {
+            "field": "InOut",
+            "title": "InOut",
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "data",
+            "title": "data",
+            "type": "text",
+            "isInput": true
+        }
+    ],
+    "data": [],
+    "Vertical": [],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "title"
+        }
+    },
+    "NonSecured": {
+        "SubRoutes": [
+            "InsertWithChecks"
+        ]
+    },
+    "Secured": {
+        "SubRoutes": [
+            "Read"
+        ]
+    }
+}

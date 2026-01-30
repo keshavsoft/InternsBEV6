@@ -1,0 +1,15 @@
+POST http://localhost:3000/V1/Task2/GroupBy/Sum
+Content-Type: application/json
+
+[
+	{
+  "StudentName": "",
+  "Mobile": "",
+  "Email": "",
+  "CollegeName": "",
+  "YearPassOut": "",
+  "RollNumber": "",
+  "GitLink": "",
+  "HostLink": ""
+}
+]
