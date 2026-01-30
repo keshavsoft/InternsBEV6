@@ -1,0 +1,4 @@
+POST http://localhost:9328/SV1/WsChat/Read/SelColumns
+Content-Type: application/json
+
+[ "exampleKey"]

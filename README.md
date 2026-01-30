@@ -62,3 +62,7 @@ image being served for mail sent
 ### 1.1.3
 
 - port changed to 9328
+
+### 1.1.4
+
+- New Ui Secured for View Student Names

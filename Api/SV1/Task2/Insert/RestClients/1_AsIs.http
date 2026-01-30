@@ -1,0 +1,13 @@
+POST http://localhost:9328/SV1/Task2/Insert/AsIs
+Content-Type: application/json
+
+{
+  "StudentName": "",
+  "Mobile": "",
+  "Email": "",
+  "CollegeName": "",
+  "YearPassOut": "",
+  "RollNumber": "",
+  "GitLink": "",
+  "HostLink": ""
+}

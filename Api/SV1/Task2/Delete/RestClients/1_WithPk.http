@@ -1,0 +1,1 @@
+DELETE http://localhost:9328/SV1/Task2/Delete/WithPk/{pk}

@@ -1,0 +1,1 @@
+{"TableName":"WsChat","DataPath":"Data","Columns":["InOut","data"],"ColumnsWithSchema":[{"field":"InOut","title":"InOut","type":"text","isInput":true},{"field":"data","title":"data","type":"text","isInput":true}]}
