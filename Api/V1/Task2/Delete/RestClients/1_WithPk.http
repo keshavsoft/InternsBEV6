@@ -1,1 +1,0 @@
-DELETE http://localhost:3000/V1/Task2/Delete/WithPk/{pk}

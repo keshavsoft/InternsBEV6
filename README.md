@@ -66,3 +66,7 @@ image being served for mail sent
 ### 1.1.4
 
 - New Ui Secured for View Student Names
+
+### 1.1.5
+
+- Api/V1 only InsertWithChecks for Students
