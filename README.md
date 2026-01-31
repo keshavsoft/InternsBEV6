@@ -74,3 +74,7 @@ image being served for mail sent
 ### 1.1.6
 
 - Students management hooked perfect
+
+### 1.1.7
+
+- Interns folder added
