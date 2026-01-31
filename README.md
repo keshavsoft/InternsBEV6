@@ -70,3 +70,7 @@ image being served for mail sent
 ### 1.1.5
 
 - Api/V1 only InsertWithChecks for Students
+
+### 1.1.6
+
+- Students management hooked perfect
