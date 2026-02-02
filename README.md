@@ -82,3 +82,7 @@ image being served for mail sent
 ### 1.1.8
 
 - for Students only
+
+### 1.2.1
+
+- for Students new menu

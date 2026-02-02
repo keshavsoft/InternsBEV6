@@ -1,0 +1,4 @@
+POST http://localhost:9328/SV2/StudentNames/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{Columns}
