@@ -1,7 +1,5 @@
 {
     "Tables": [
-        "WsChat",
-        "StudentNames",
-        "Task2"
+        "StudentNames"
     ]
 }

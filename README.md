@@ -78,3 +78,7 @@ image being served for mail sent
 ### 1.1.7
 
 - Interns folder added
+
+### 1.1.8
+
+- for Students only
