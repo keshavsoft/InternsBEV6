@@ -90,3 +90,7 @@ image being served for mail sent
 ### 1.3.1
 
 - for Students Sort/imagePageSmsTop10 perfect
+
+### 1.3.2
+
+- Ui DocCure started
