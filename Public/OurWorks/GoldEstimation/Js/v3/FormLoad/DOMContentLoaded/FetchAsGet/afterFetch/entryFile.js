@@ -15,6 +15,7 @@ let StartFunc = async ({ inResponse }) => {
             let jVarLocalGoldRate = jVarLocalDataAsTextAsArray8thLine[3];
             console.log("jVarLocalGoldRate : ", jVarLocalGoldRate);
             jFLocalToInputrate(jVarLocalGoldRate);
+            calculateGold();
         } else {
             let jVarLocalDataAsJson = await jVarLocalResponse.json();
             Status200({ inResponseAsJson: jVarLocalDataAsJson });

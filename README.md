@@ -106,3 +106,7 @@ image being served for mail sent
 ### 1.3.5
 
 - Gold V3 started, 2 apis perfect for dollar and gold rate, to single svbc also
+
+### 1.3.6
+
+- Gold V3 started, select dropdown and perfect ui and amount after rate fill

@@ -139,6 +139,11 @@
         grid-template-columns: 1fr;
       }
     }
+
+    select option {
+      background: #2e0066;
+      color: white;
+    }
   </style>
 </head>
 
@@ -149,9 +154,8 @@
   <div class="content">
 
     <div class="header">
-      <img class="rings-image" src="https://images.pexels.com/photos/2219195/pexels-photo-2219195.jpeg">
       <h1 class="title">🪙 Gold Price Calculation</h1>
-      <p class="subtitle">Instant gold value estimation</p>
+      <p class="subtitle">Instant gold value estimation (rate is live) </p>
     </div>
 
     <div class="card">
@@ -233,7 +237,7 @@
       document.getElementById("makingPrice").innerText = "₹" + makingCharge.toFixed(0);
       document.getElementById("gstPrice").innerText = "₹" + gst.toFixed(0);
       document.getElementById("totalPrice").innerText = "₹" + total.toFixed(0);
-    }
+    };
 
     document.querySelectorAll("input, select")
       .forEach(el => el.addEventListener("input", calculateGold));
@@ -241,7 +245,8 @@
     calculateGold();
   </script>
 
-	<script src="./Js/v3/entryFile.js" type="module"></script>
+  <script src="./Js/v3/entryFile.js" type="module"></script>
 
 </body>
+
 </html>
