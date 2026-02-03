@@ -102,3 +102,7 @@ image being served for mail sent
 ### 1.3.4
 
 - Gold V3 started, Js still working on 
+
+### 1.3.5
+
+- Gold V3 started, 2 apis perfect for dollar and gold rate, to single svbc also
