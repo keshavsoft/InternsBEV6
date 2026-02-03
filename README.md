@@ -98,3 +98,7 @@ image being served for mail sent
 ### 1.3.3
 
 - Ui GoldEstimation started
+
+### 1.3.4
+
+- Gold V3 started, Js still working on 
