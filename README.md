@@ -94,3 +94,7 @@ image being served for mail sent
 ### 1.3.2
 
 - Ui DocCure started
+
+### 1.3.3
+
+- Ui GoldEstimation started
