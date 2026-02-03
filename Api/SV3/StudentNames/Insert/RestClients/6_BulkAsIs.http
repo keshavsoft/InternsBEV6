@@ -1,0 +1,6 @@
+POST http://localhost:9328/Api/SV3/StudentNames/Insert/BulkAsIs
+Content-Type: application/json
+
+[
+  {Columns}
+]

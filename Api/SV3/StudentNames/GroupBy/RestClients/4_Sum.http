@@ -1,0 +1,6 @@
+POST http://localhost:9328/Api/SV3/StudentNames/GroupBy/Sum
+Content-Type: application/json
+
+[
+	{Columns}
+]
