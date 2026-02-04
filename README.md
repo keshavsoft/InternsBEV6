@@ -110,3 +110,7 @@ image being served for mail sent
 ### 1.3.6
 
 - Gold V3 started, select dropdown and perfect ui and amount after rate fill
+
+### 1.3.7
+
+- Tasks seperate menu added and Task1 started perfect

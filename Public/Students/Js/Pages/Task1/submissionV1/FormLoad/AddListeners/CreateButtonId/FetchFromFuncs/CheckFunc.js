@@ -1,0 +1,22 @@
+import acceptFileTypesJson from './acceptFileTypes.json' with {type: 'json'};
+
+let StartFunc = () => {
+    let jVarLocalForm = document.getElementById("FormId");
+    let jVarLocalRequiredElements = jVarLocalForm.querySelectorAll("[required]");
+    let jVarLocalReturnTF = true;
+
+    jVarLocalRequiredElements.forEach(LoopItem => {
+        if (LoopItem.value.trim().length === 0) {
+            LoopItem.classList.add("is-invalid");
+            jVarLocalReturnTF = false;
+            return jVarLocalReturnTF;
+        };
+
+        LoopItem.classList.remove("is-invalid");
+        LoopItem.classList.add("is-valid");
+    });
+
+    return jVarLocalReturnTF;
+};
+
+export { StartFunc }

@@ -1,0 +1,13 @@
+POST http://localhost:9328/V1/Task1/InsertWithChecks/PkReturn
+Content-Type: application/json
+
+{
+  "StudentName": "",
+  "Mobile": "",
+  "Email": "",
+  "CollegeName": "",
+  "YearPassOut": "",
+  "RollNumber": "",
+  "GitLink": "",
+  "HostLink": ""
+}
