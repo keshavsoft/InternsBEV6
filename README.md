@@ -118,3 +118,7 @@ image being served for mail sent
 ### 1.3.8
 
 - Gps Coordinates added in new V5 html
+
+### 1.3.9
+
+- registerForInternsV5 hooked at index and selection.hml, 2 places
