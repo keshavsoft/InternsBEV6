@@ -122,3 +122,7 @@ image being served for mail sent
 ### 1.3.9
 
 - registerForInternsV5 hooked at index and selection.hml, 2 places
+
+### 1.3.10
+
+- home screen menu added
