@@ -114,3 +114,7 @@ image being served for mail sent
 ### 1.3.7
 
 - Tasks seperate menu added and Task1 started perfect
+
+### 1.3.8
+
+- Gps Coordinates added in new V5 html

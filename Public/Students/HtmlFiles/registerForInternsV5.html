@@ -228,51 +228,10 @@
 
     </main><!-- End #main -->
 
-    <script>
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition, showError, { enableHighAccuracy: true });
-            } else {
-                // Geolocation is not supported by this browser
-                console.log("Geolocation is not supported by this browser.");
-            }
-        }
-
-        function showPosition(position) {
-            const latitude = position.coords.latitude;
-            const longitude = position.coords.longitude;
-            console.log("Latitude: " + latitude);
-            console.log("Longitude: " + longitude);
-            // You can now use these coordinates (e.g., display on a map)
-        }
-
-        function showError(error) {
-            switch (error.code) {
-                case error.PERMISSION_DENIED:
-                    console.error("User denied the request for Geolocation.");
-                    break;
-                case error.POSITION_UNAVAILABLE:
-                    console.error("Location information is unavailable.");
-                    break;
-                case error.TIMEOUT:
-                    console.error("The request to get user location timed out.");
-                    break;
-                case error.UNKNOWN_ERROR:
-                    console.error("An unknown error occurred.");
-                    break;
-            }
-        }
-
-        // Call getLocation() when needed, e.g., on a button click
-        getLocation();
-
-    </script>
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
-    <script type="module" src="../Js/Pages/RegisterForInternsV4/StartFunc.js"></script>
+    <script type="module" src="../Js/Pages/RegisterForInternsV5/StartFunc.js"></script>
 
 
 </body>
