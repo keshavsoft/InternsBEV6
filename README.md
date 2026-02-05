@@ -134,3 +134,7 @@ image being served for mail sent
 ### 1.3.12
 
 - InternsOffer.txt added
+
+### 1.3.13
+
+- websocket perfect

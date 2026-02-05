@@ -1,9 +1,13 @@
 import express from 'express';
 import cookieParser from 'cookie-parser';
+import http from 'http';
 
 const app = express();
+const server = http.createServer(app);
 
 var port = normalizePort(process.env.PORT || 3000);
+
+import { StartFunc as StartFuncFromWebSocketServer } from "./Projects/WebSocketServer/V2/entryFile.js";
 
 import { router as routerFromMetaData } from "./MetaData/routes.js";
 
@@ -15,6 +19,8 @@ app.use(cookieParser());
 app.use("/MetaData", routerFromMetaData);
 
 app.use("/Api", routerFromApi);
+
+StartFuncFromWebSocketServer(server);
 
 function normalizePort(val) {
     var port = parseInt(val, 10);
@@ -30,7 +36,7 @@ function normalizePort(val) {
     return false;
 };
 
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
     console.log(`Open here http://localhost:${port}`);
 });
