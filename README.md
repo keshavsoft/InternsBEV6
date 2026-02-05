@@ -130,3 +130,7 @@ image being served for mail sent
 ### 1.3.11
 
 - Gold menu started
+
+### 1.3.12
+
+- InternsOffer.txt added
