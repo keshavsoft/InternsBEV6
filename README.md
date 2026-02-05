@@ -126,3 +126,7 @@ image being served for mail sent
 ### 1.3.10
 
 - home screen menu added
+
+### 1.3.11
+
+- Gold menu started
