@@ -12,6 +12,7 @@ import { StartFunc as StartFuncFromWebSocketServer } from "./Projects/WebSocketS
 import { router as routerFromMetaData } from "./MetaData/routes.js";
 
 import { router as routerFromApi } from "./Api/routes.js";
+import { router as routerFromV2 } from "./V2/routes.js";
 
 app.use(express.static('Public'));
 app.use(cookieParser());
@@ -19,6 +20,7 @@ app.use(cookieParser());
 app.use("/MetaData", routerFromMetaData);
 
 app.use("/Api", routerFromApi);
+app.use("/V2", routerFromV2);
 
 StartFuncFromWebSocketServer(server);
 
