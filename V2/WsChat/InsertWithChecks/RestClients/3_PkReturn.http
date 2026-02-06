@@ -1,7 +1,0 @@
-POST http://localhost:9328/V2/WsChat/InsertWithChecks/PkReturn
-Content-Type: application/json
-
-{
-  "InOut": "",
-  "data": ""
-}

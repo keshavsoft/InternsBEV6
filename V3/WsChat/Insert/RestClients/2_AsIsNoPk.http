@@ -1,0 +1,7 @@
+POST http://localhost:9328/V3/WsChat/Insert/AsIsNoPk
+Content-Type: application/json
+
+{
+  "InOut": "",
+  "data": ""
+}

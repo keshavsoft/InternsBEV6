@@ -1,4 +1,4 @@
-import { StartFunc as StartFuncFromInsertToFile } from "../../V2/WsChat/InsertWithChecks/3.PkReturn/KFs/insertToFile.js";
+import { StartFunc as StartFuncFromInsertToFile } from "../../V3/WsChat/Insert/9.PkReturn/KFs/insertToFile.js";
 
 const InsertFunc = (inObjectToInsert) => {
     return StartFuncFromInsertToFile({ inRequestBody: inObjectToInsert.inData });

@@ -23,7 +23,7 @@
     },
     "NonSecured": {
         "SubRoutes": [
-            "InsertWithChecks"
+            "Insert"
         ]
     },
     "Secured": {
