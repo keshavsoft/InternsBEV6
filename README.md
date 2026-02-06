@@ -146,3 +146,7 @@ image being served for mail sent
 ### 1.3.15
 
 - WsChat to V3 perfect with Insert
+
+### 1.3.16
+
+- WsChat to V4 perfect with Insert with Ts

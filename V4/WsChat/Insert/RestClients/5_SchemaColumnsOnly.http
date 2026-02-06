@@ -1,4 +1,4 @@
-POST http://localhost:9328/V3/WsChat/Insert/SchemaColumnsOnly
+POST http://localhost:9328/V4/WsChat/Insert/SchemaColumnsOnly
 Content-Type: application/json
 
 {

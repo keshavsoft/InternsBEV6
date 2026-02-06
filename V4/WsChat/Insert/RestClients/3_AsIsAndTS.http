@@ -1,4 +1,4 @@
-POST http://localhost:9328/V3/WsChat/Insert/AsIsNoPk
+POST http://localhost:9328/V4/WsChat/Insert/AsIsAndTS
 Content-Type: application/json
 
 {
