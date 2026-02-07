@@ -150,3 +150,7 @@ image being served for mail sent
 ### 1.3.16
 
 - WsChat to V4 perfect with Insert with Ts
+
+### 1.3.17
+
+- StudentNames Import Schema added
