@@ -162,3 +162,7 @@ image being served for mail sent
 ### 1.3.19
 
 - StudentNames V4 menu added
+
+### 1.3.20
+
+- Gold Stones with stones perfect
