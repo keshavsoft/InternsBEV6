@@ -1,0 +1,4 @@
+POST http://localhost:9328/Api/SV4/StudentNames/InsertWithChecks/ForUnique
+Content-Type: application/json
+
+{Columns}

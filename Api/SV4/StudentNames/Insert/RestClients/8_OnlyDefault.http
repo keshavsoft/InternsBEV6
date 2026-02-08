@@ -1,0 +1,2 @@
+POST http://localhost:9328/Api/SV4/StudentNames/Insert/OnlyDefault
+Content-Type: application/json

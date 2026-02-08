@@ -1,0 +1,6 @@
+POST http://localhost:9328/Api/SV4/StudentNames/GroupBy/SingleColumnSum/{GroupByColumnName}
+Content-Type: application/json
+
+[
+	"SumColumnName"
+]
