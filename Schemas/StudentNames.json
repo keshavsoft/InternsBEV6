@@ -126,6 +126,27 @@
             "title": "isEmailVerified",
             "type": "text",
             "isInput": true
+        },
+        {
+            "field": "gpsLat",
+            "title": "gpsLat",
+            "unique": false,
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "gpsLng",
+            "title": "gpsLng",
+            "unique": false,
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "gpsAccuracy",
+            "title": "gpsAccuracy",
+            "unique": false,
+            "type": "text",
+            "isInput": true
         }
     ],
     "data": [],
