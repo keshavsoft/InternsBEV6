@@ -166,3 +166,7 @@ image being served for mail sent
 ### 1.3.20
 
 - Gold Stones with stones perfect
+
+### 1.3.21
+
+- 3R College added
