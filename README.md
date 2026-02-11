@@ -170,3 +170,7 @@ image being served for mail sent
 ### 1.3.21
 
 - 3R College added
+
+### 1.3.22
+
+- Task1 submission, sms need to be tested
