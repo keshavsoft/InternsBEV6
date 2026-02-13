@@ -1,0 +1,4 @@
+POST http://localhost:9328/Api/SV5/Task1/InsertWithChecks/ForUnique
+Content-Type: application/json
+
+{Columns}

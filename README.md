@@ -174,3 +174,7 @@ image being served for mail sent
 ### 1.3.22
 
 - Task1 submission, sms need to be tested
+
+### 1.3.23
+
+- Task1 Dashboard linked

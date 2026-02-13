@@ -107,7 +107,8 @@
     },
     "Secured": {
         "SubRoutes": [
-            "InsertWithChecks"
+            "InsertWithChecks",
+            "Read"
         ]
     }
 }
