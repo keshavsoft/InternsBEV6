@@ -178,3 +178,7 @@ image being served for mail sent
 ### 1.3.23
 
 - Task1 Dashboard linked
+
+### 1.3.24
+
+- Students registration to V5 default values also

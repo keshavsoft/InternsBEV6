@@ -6,7 +6,8 @@
             "title": "StudentName",
             "unique": false,
             "type": "text",
-            "isInput": true
+            "isInput": true,
+            "defaultvalue": "Keshav"
         },
         {
             "field": "Mobile",
@@ -125,7 +126,8 @@
             "field": "isEmailVerified",
             "title": "isEmailVerified",
             "type": "text",
-            "isInput": true
+            "isInput": true,
+            "defaultvalue": false
         },
         {
             "field": "gpsLat",
