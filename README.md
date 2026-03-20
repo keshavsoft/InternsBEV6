@@ -190,3 +190,7 @@ image being served for mail sent
 ### 1.4.1
 
 - WhatsApp started
+
+### 1.4.2
+
+- WhatsApp subroute perfect with webhook
