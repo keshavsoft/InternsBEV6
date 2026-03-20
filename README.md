@@ -186,3 +186,7 @@ image being served for mail sent
 ### 1.3.25
 
 - registerForInternsV5 process added in ui
+
+### 1.4.1
+
+- WhatsApp started

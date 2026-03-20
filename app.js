@@ -13,6 +13,7 @@ import { router as routerFromMetaData } from "./MetaData/routes.js";
 
 import { router as routerFromApi } from "./Api/routes.js";
 import { router as routerFromV4 } from "./V4/routes.js";
+import { router as WhatsApp } from "./Projects/WhatsApp/routes.js";
 
 app.use(express.static('Public'));
 app.use(cookieParser());
@@ -21,6 +22,7 @@ app.use("/MetaData", routerFromMetaData);
 
 app.use("/Api", routerFromApi);
 app.use("/V4", routerFromV4);
+app.use("/WhatsApp", WhatsApp);
 
 StartFuncFromWebSocketServer(server);
 
